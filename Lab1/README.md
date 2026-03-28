@@ -1,16 +1,18 @@
 # Lab1-Backpropagation
 ## File structure
+```text
 Lab 1/
 ├── src/
-|   ├── data.py # Contains data generation utilities
-|   ├── loss.py # Implement loss function
-|   ├── model.py # Defines the architecture components that is required for constructing MLP
-|   ├── optimizer.py # Implement optimizer
-|   ├── train.py # Implement main training loop 
-|   └── utils.py # Implement visualization and plotting functions
-|── spec/
-|── images/
+│   ├── data.py      # Contains data generation utilities
+│   ├── loss.py      # Implement loss function
+│   ├── model.py     # Defines architecture components required for constructing MLP
+│   ├── optimizer.py # Implement optimizer
+│   ├── train.py     # Implement main training loop
+│   └── utils.py     # Implement visualization and plotting functions
+├── spec/
+├── images/
 └── README.md
+```
 
 ## Experimental results
 Conduct experiments on two datasets: linear and XOR problem. For the experiment the MLP was trained using the following parameters:
